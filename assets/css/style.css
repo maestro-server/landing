@@ -136,6 +136,9 @@ a:hover {
 .padding-80 {
     padding: 80px 0;
 }
+.padding-40 {
+    padding: 40px 0;
+}
 .pdt-150 {
     padding-top: 150px;
 }
@@ -157,14 +160,13 @@ a:hover {
 /* =============================================
               Button CSS
 ===============================================*/
-
 .boxed-btn {
-    background: #33ccff none repeat scroll 0 0;
-    border-radius: 30px;
+    background: #1e96f2 none repeat scroll 0 0;
+    border-radius: 5px;
     display: inline-block;
     padding: 10px 40px;
     color: #fff;
-    border: 1px solid #33ccff;
+    border: 1px solid #465CCB;
     transition: 0.4s;
     font-weight: 700;
     font-size: 18px;
@@ -259,7 +261,7 @@ a:hover {
 .get-btn {
     background: transparent;
     border-radius: 50px;
-    box-shadow: 0 0 10px #58a6c4;
+    box-shadow: 0 0 10px #320648;
     color: #fff;
     display: inline-block;
     padding: 10px 20px;
@@ -674,7 +676,7 @@ header .borderd-btn:hover {
     padding-top: 180px;
 }
 .hero-area.about-us {
-    background-image: url(../img/hero-about.jpg);
+    background-image: url(../img/hero-bg-2.jpg);
 }
 .hero-area.contact-us {
     padding-bottom: 60px;
@@ -686,8 +688,8 @@ header .borderd-btn:hover {
     margin-bottom: 10px;
 }
 .hero-area.about-us {
-    padding-bottom: 130px;
-    padding-top: 200px;
+    padding-bottom: 0px;
+    padding-top: 110px;
 }
 .hero-area.about-us h1,
 .hero-area.main-shop h1,
@@ -728,6 +730,10 @@ select:focus {
 .hero-area p {
     margin-bottom: 65px;
 }
+.hero-area.about-us p {
+    margin-bottom: 25px;
+}
+
 .hero-social-icon {
     height: 200px;
     left: 0;
@@ -796,7 +802,8 @@ select:focus {
     z-index: -1;
 }
 .hero-area.about-us::after {
-    background: #38aecc none repeat scroll 0 0;
+    background: #672064 none repeat scroll 0 0;
+    opacity: 0.80;
 }
 .right-img {
     position: absolute;
@@ -1719,7 +1726,7 @@ ul {
 .single-timeline {
     padding: 10px;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 .single-timeline:hover {
     background-color: #F7F7F7;
@@ -1735,7 +1742,7 @@ ul {
 .timeline-block::before {
     background-color: #672064;
     content: "";
-    height: 70%;
+    height: 75%;
     left: 8px;
     position: absolute;
     top: 10%;
@@ -2842,7 +2849,7 @@ input[type="submit"] {
 ===============================================*/
 
 .download-application {
-    background: #508df7 none repeat scroll 0 0;
+    background: #672064 none repeat scroll 0 0;
     padding: 40px 0;
     font-size: 14px;
 }
@@ -2864,7 +2871,7 @@ footer .pdt-150 p {
     margin-bottom: 20px;
 }
 .main-footer {
-    background: #508df7;
+    background: #4c1649;
     color: #fff;
     padding: 25px 0 30px;
 }
@@ -2909,10 +2916,10 @@ button {
     transition: 0.4s;
 }
 .site-footer ul a:hover {
-    color: #1E96F2;
+    color: #672064;
 }
 .main-footer ul a:hover {
-    color: #33ccff;
+    color: #b5b5b5;
 }
 .main-footer p {
     margin: 0;
@@ -2982,7 +2989,7 @@ button {
     background-image: url(../img/hero-bg-2.jpg);
 }
 .hero-area.theme-2 {
-    padding-bottom: 75px;
+    padding-bottom: 35px;
     padding-top: 120px;
 }
 .hero-area.theme-2::after {
@@ -3208,7 +3215,7 @@ footer.theme-2 .boxed-btn:hover {
     background: transparent;
 }
 footer.theme-2 .main-footer {
-    background: #4d52b3;
+    background: #441042;
 }
 /* ============================================
           Theme 3 (skype-index)
@@ -3417,7 +3424,7 @@ footer.theme-2 .main-footer {
     width: 30px;
     height: 30px;
     background: #fff;
-    color: #00b9ea;
+    color: #672064;
     display: inline-block;
     line-height: 30px;
     text-align: center;
@@ -3425,13 +3432,14 @@ footer.theme-2 .main-footer {
     transition: all 0.4s;
 }
 .site-footer .widget-icon a {
-    color: #00b9ea;
+    color: #672064;
 }
 .widget-icon {
     margin-top: 30px;
 }
 .widget-icon a:hover {
     border-radius: 30px;
+    color: #4c1649;
 }
 .site-footer.theme-3.main-shop {
     background: #918ef4;
