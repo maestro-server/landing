@@ -368,7 +368,7 @@ input[type=checkbox]:checked + label:before {
     display: inline-block;
 }
 .owl-nav div {
-    background: #565cc9 none repeat scroll 0 0;
+    background: #672064 none repeat scroll 0 0;
     color: #fff;
     font-size: 25px;
     height: 40px;
@@ -723,7 +723,7 @@ select:focus {
     line-height: 52px;
 }
 .hero-area .boxed-btn {
-    margin-right: 20px;
+    margin-right: 0;
 }
 .hero-area p {
     margin-bottom: 65px;
@@ -741,7 +741,7 @@ select:focus {
     padding: 0;
 }
 .hero-social-icon ul a {
-    background: #565cc9 none repeat scroll 0 0;
+    background: #672064 none repeat scroll 0 0;
     border-radius: 50%;
     color: #fff;
     display: block;
@@ -751,7 +751,7 @@ select:focus {
     margin: 10px;
     text-align: center;
     width: 40px;
-    border: 1px solid #565cc9;
+    border: 1px solid #672064;
     transition: 0.3s;
 }
 .hero-social-icon ul a:hover {
@@ -1134,7 +1134,7 @@ ul {
     padding-top: 200px;
 }
 .hero-area.pricing-v2:after {
-    background: #63B4D1;
+    background: #672064;
 }
 .duration-time {
     background: #fff;
@@ -1184,7 +1184,7 @@ ul {
 =================================================*/
 
 .sponser-area {
-    background: #565cc9 none repeat scroll 0 0;
+    background: #672064 none repeat scroll 0 0;
     color: #d6d7f0;
     padding: 100px 0;
 }
@@ -1210,7 +1210,7 @@ ul {
 =================================================*/
 
 .single-testmonial {
-    background: #565cc9 none repeat scroll 0 0;
+    background: #672064 none repeat scroll 0 0;
     border-radius: 5px;
     color: #fff;
     margin-top: 50px;
@@ -1248,7 +1248,7 @@ ul {
     background: #fff none repeat scroll 0 0;
     border-color: #fff;
     border-radius: 50px;
-    color: #565cc9;
+    color: #672064;
     margin-top: 30px;
     transition: all 0.4s ease 0s;
     width: 220px;
@@ -1534,7 +1534,7 @@ ul {
     background: #fff;
 }
 .contact-area::after {
-    background: #565cc9 none repeat scroll 0 0;
+    background: #672064 none repeat scroll 0 0;
     content: "";
     height: 50%;
     left: 0;
@@ -1544,7 +1544,7 @@ ul {
     z-index: -1;
 }
 .contact-area.pricing-v2:after {
-    background: #63B4D1 none repeat scroll 0 0;
+    background: #672064 none repeat scroll 0 0;
 }
 .contact-area.pricing-v2 h3 {
     color: #fff;
@@ -1733,16 +1733,16 @@ ul {
     position: relative;
 }
 .timeline-block::before {
-    background-color: #63b4d1;
+    background-color: #672064;
     content: "";
-    height: 63%;
+    height: 70%;
     left: 8px;
     position: absolute;
     top: 10%;
     width: 4px;
 }
 .single-timeline::before {
-    background: #63b4d1 none repeat scroll 0 0;
+    background: #672064 none repeat scroll 0 0;
     border-radius: 50%;
     content: "";
     height: 40px;
@@ -1795,7 +1795,7 @@ ul {
     background: #fff none repeat scroll 0 0;
     border-color: #fff;
     border-radius: 50px;
-    color: #63B4D1;
+    color: #672064;
     width: 250px;
     margin-top: 30px;
 }
@@ -1805,7 +1805,7 @@ ul {
     border-color: #fff;
 }
 .everywhere::after {
-    background: #63B4D1 none repeat scroll 0 0;
+    background: #672064 none repeat scroll 0 0;
     content: "";
     height: 100%;
     left: 0;
@@ -2577,8 +2577,8 @@ input[type="submit"] {
     padding: 80px 0;
 }
 .section-padding .boxed-btn {
-    background: #565cc9 none repeat scroll 0 0;
-    border-color: #565cc9;
+    background: #672064 none repeat scroll 0 0;
+    border-color: #672064;
     border-radius: 30px;
 }
 .single-product-carousel-bg {
@@ -2616,7 +2616,7 @@ input[type="submit"] {
     margin-bottom: 25px;
 }
 .single-product-carousel .owl-dots div {
-    background: #565cc9 none repeat scroll 0 0;
+    background: #672064 none repeat scroll 0 0;
     border-radius: 0;
     display: inline-block;
     height: 2px;
@@ -2638,8 +2638,8 @@ input[type="submit"] {
     margin-bottom: 20px;
 }
 .product-specification .boxed-btn {
-    background: #565cc9 none repeat scroll 0 0;
-    border-color: #565cc9;
+    background: #672064 none repeat scroll 0 0;
+    border-color: #672064;
     border-radius: 30px;
 }
 .product-specification .boxed-btn:hover {
@@ -2986,8 +2986,8 @@ button {
     padding-top: 120px;
 }
 .hero-area.theme-2::after {
-    background: #6666cc none repeat scroll 0 0;
-    opacity: 0.95;
+    background: #672064 none repeat scroll 0 0;
+    opacity: 0.80;
 }
 .hero-area.theme-2 .boxed-btn,
 .hero-area.theme-2 .borderd-btn,
@@ -3044,7 +3044,7 @@ button {
 }
 .service-area.theme-2 .service-icon i.icofont-diamond,
 .service-area.theme-2 .service-icon i {
-    color: #565cc9;
+    color: #672064;
     opacity: 0.7;
     transition: all 0.4s;
 }
@@ -3139,7 +3139,7 @@ button {
 ============================================================*/
 
 .service-area.theme-2 {
-    background: #6666cc;
+    background: #672064;
 }
 .service-area.theme-2,
 .service-area.theme-2 h3,
@@ -3179,7 +3179,7 @@ button {
 .theme-2 .single-services .service-icon {
     border: 1px solid #b1b4b7;
     border-radius: 50%;
-    color: #6666cc;
+    color: #672064;
     display: inline-block;
     font-size: 60px;
     height: 90px;
@@ -3194,7 +3194,7 @@ button {
 =======================================================*/
 
 footer.theme-2 {
-    background: #565cc9;
+    background: #672064;
     color: #fff;
 }
 footer.theme-2 ul a {
@@ -3587,10 +3587,10 @@ footer.theme-2 .main-footer {
     text-align: center;
 }
 .service-area.theme-5 .single-services .service-icon i {
-    color: #44a1a0;
+    color: #672064;
 }
 .service-area.theme-5 .single-services:hover.single-services h4 {
-    color: #44a1a0;
+    color: #672064;
 }
 /* =================================================
           Verticle Timeline CSS
