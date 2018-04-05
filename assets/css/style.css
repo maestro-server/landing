@@ -492,7 +492,7 @@ a.main-desktop-get-btn.get-btn {
     margin-bottom: 30px;
 }
 .offcanvas-menu {
-    background: #33ccff none repeat scroll 0 0;
+    background: #672064 none repeat scroll 0 0;
     height: 100%;
     padding-top: 30px;
     position: fixed;
@@ -809,7 +809,10 @@ select:focus {
 }
 .hero-area.about-us::after {
     background: #672064 none repeat scroll 0 0;
-    opacity: 0.85;
+    background: -moz-radial-gradient(center, ellipse cover, rgba(103,32,100,0.7) 0%, rgba(103,32,100,1) 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(103,32,100,0.7) 0%,rgba(103,32,100,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, rgba(103,32,100,0.7) 0%,rgba(103,32,100,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3672064', endColorstr='#672064',GradientType=1 );
 }
 .right-img {
     position: absolute;
@@ -3000,7 +3003,10 @@ button {
 }
 .hero-area.theme-2::after {
     background: #672064 none repeat scroll 0 0;
-    opacity: 0.80;
+    background: -moz-radial-gradient(center, ellipse cover, rgba(103,32,100,0.7) 0%, rgba(103,32,100,1) 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(103,32,100,0.7) 0%,rgba(103,32,100,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, rgba(103,32,100,0.7) 0%,rgba(103,32,100,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3672064', endColorstr='#672064',GradientType=1 );
 }
 .hero-area.theme-2 .boxed-btn,
 .hero-area.theme-2 .borderd-btn,
