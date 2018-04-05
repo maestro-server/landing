@@ -5,5 +5,5 @@ deploy:
   provider: s3
   access_key_id: $ACCESS
   secret_access_key: $SECRET
-  bucket: "maestroserver-landing"
+  bucket: "maestroserver.io"
   skip_cleanup: true
