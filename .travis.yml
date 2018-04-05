@@ -7,4 +7,3 @@ deploy:
   secret_access_key: $SECRET
   bucket: "maestroserver-landing"
   skip_cleanup: true
-  acl: public_read
