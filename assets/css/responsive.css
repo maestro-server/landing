@@ -950,7 +950,11 @@
 	}
 	.better-ux, .included-feature {
 		padding: 95px 0;
-	}
+    }
+    
+    .download-application.theme-2 .big-icon {
+        display: none;
+    }
 }
 /* Wide Mobile Layout: 480px. */
 
