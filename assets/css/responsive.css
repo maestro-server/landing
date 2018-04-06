@@ -90,7 +90,15 @@
 	}
 	.landing-mobile {
 		padding: 50px 0 140px;
-	}
+    }
+    
+    .big-icon i {
+        width: 100%;
+        font-size: 150px;
+    }
+    .service-area.theme-2 .single-services {
+        min-height: 426px;
+    }
 }
 /* Tablet Layout: 768px. */
 
